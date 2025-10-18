@@ -11,7 +11,7 @@
 
 
 #tablaSeries {
-    max-width: 700px;
+    max-width: 650px;
     max-height: 300px;
 }
 
@@ -38,7 +38,6 @@
 
 .link {
     display: inline-block;
-    margin: 10px;
     cursor: pointer;
 }
 

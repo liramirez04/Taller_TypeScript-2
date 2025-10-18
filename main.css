@@ -1,6 +1,7 @@
 #navegacion{
     background-color:rgb(64, 163, 185);
     font-weight: bold;
+    font-size: 20px;
 }
 
 #imgNav{
@@ -10,11 +11,42 @@
 
 
 #tablaSeries {
-    max-width: 650px;
+    max-width: 700px;
     max-height: 300px;
-    width: auto;
 }
 
 .seasons-average {
     white-space: nowrap;
+}
+
+.col {
+    text-align: left;
+    padding: 0;
+}
+
+.card{
+    width: 350px; 
+    height: auto; 
+    position: relative; 
+    left: 0; 
+}
+
+
+.hidden {
+    display: none;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-img-top{
+    width: 350px; 
+    height: 180px; 
+    object-fit: cover;
+    position: relative;
+    display: block; 
+    margin: 0 auto;
 }
